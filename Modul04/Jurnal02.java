@@ -18,8 +18,8 @@ public class Jurnal02 {
             p = 30;
         }
 
-        pajak = n * 1000000 * p / 100.0;
-        penghasilanBersih = (int)(n * 1000000 - pajak);
+        pajak = n * 1000000 * (p / 100.0);
+        penghasilanBersih = (int)((n * 1000000) - pajak);
 
         System.out.println("Penghasilan kotor = " + n + " juta Rupiah");
         System.out.println("Pajak " + p + "% = Rp. " + (int) pajak);

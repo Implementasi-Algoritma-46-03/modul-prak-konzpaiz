@@ -15,6 +15,7 @@ public class TP03 {
                 int sisi = sc.nextInt();
                 luas = sisi * sisi;
                 keliling = 4 * sisi;
+                System.out.println((int)luas +  " " + (int)keliling);
                 break;
 
             case "Persegi Panjang":
@@ -22,6 +23,7 @@ public class TP03 {
                 int l = sc.nextInt();
                 luas = p * l;
                 keliling = 2 * (p + l);
+                System.out.println((int)luas + " " +(int)keliling);
                 break;
 
             case "Segitiga":
@@ -29,6 +31,7 @@ public class TP03 {
                 int t = sc.nextInt();
                 luas = 0.5 * a * t;
                 keliling = a + t + Math.sqrt(a * a + t * t);
+                System.out.println((int)luas + " " + (int)keliling);
                 break;
 
             case "Lingkaran":
@@ -36,13 +39,12 @@ public class TP03 {
                 double r = d / 2.0;
                 luas = 3.14 * r * r;
                 keliling = 3.14 * d;
+                System.out.printf("%.2f %.2f", luas, keliling);
                 break;
 
             default:
                 System.out.println("Bangun tidak dikenali");
                 return;
         }
-
-        System.out.printf("%.2f %.2f", luas, keliling);
     }
 }

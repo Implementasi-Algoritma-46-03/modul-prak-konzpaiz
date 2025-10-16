@@ -37,7 +37,7 @@ public static void main(final String[] args) {
                 hasil = "septembre";
                 break;
             case "oktober":
-                hasil = "octobre";
+                hasil = "oktobre";
                 break;
             case "november":
                 hasil = "novembre";

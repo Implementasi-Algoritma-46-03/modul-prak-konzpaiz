@@ -1,6 +1,43 @@
-public class Jurnal02 {
+import java.util.Scanner;
 
-    public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
+public class Jurnal02 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String hari = sc.next();
+        int n = sc.nextInt();
+
+        String[] daftarhari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"};
+
+        int posisi = 0;
+
+        switch(hari){
+            case "Senin":
+                posisi = 0;
+                break;
+            case "Selasa":
+                posisi = 1;
+                break;
+            case "Rabu":
+                posisi = 2;
+                break;
+            case "Kamis":
+                posisi = 3;
+                break;
+            case "Jumat":
+                posisi = 4;
+                break;
+            case "Sabtu":
+                posisi = 5;
+                break;
+            case "Minggu":
+                posisi = 6;
+                break;
+            default:
+                System.out.println("Hari tidak valid");
+                return;
+        }
+
+        int hasil = (posisi + n) % 7;
+        System.out.println(daftarhari[hasil]);
     }
 }

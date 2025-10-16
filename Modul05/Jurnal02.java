@@ -23,7 +23,7 @@ public class Jurnal02 {
             case "Kamis":
                 posisi = 3;
                 break;
-            case "Jumat":
+            case "Jum'at":
                 posisi = 4;
                 break;
             case "Sabtu":

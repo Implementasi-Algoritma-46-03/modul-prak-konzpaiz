@@ -14,3 +14,4 @@ public class Jurnal02{
  }
 }
 //buat benerin github aja
+//benerin yang kedua

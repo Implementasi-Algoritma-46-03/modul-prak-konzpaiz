@@ -8,4 +8,5 @@ public class Jurnal01{
    }
   }
  }
-}
+} 
+// buat benerin github aja

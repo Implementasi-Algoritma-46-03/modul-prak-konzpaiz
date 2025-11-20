@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class TP03 {
 
     public static void main(final String[] args) {

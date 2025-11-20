@@ -1,10 +1,9 @@
 import java.util.Scanner;
-
 public class TP02 {
 
     public static void main(final String[] args) {
         // Kerjakan soalnya di sini
-        Scanner x = new Scanner(System.in);
+       Scanner x = new Scanner(System.in);
 
         int n = x.nextInt();
         int k = 0;
@@ -22,6 +21,3 @@ public class TP02 {
 
     }
 }
-//edit done
-//test
-//test 2

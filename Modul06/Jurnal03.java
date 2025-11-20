@@ -27,6 +27,6 @@ public class Jurnal03 {
         double percent = persen(t, h);
 
         System.out.printf("%.2f %.2f %.1f%%", vMax, vAir, percent);
-        s.close();
+         s.close();
     }
 }

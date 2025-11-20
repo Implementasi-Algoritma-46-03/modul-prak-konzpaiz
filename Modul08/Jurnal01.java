@@ -10,7 +10,7 @@ public class Jurnal01 {
 
   if(n <= 30){
    System.out.println(0);
-  } else {
+  } else { //sebaliknya
    while(amo < n){
     amo = amo * 2;
     waktu = waktu + 15;

@@ -11,3 +11,5 @@ public class Jurnal02 {
         System.out.println(hasil);
     }
 }
+
+//update pais
